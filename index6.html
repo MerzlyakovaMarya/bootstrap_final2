@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.css" rel="stylesheet">
+    <link rel="stylesheet" href="1.css">
+    <link href="https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.css" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        *{
+            font-family: Gilroy, sans-serif;
+            font-weight: lighter;
+        
+        }
+        .header-image {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .header-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .btn-bl {
+          background-color: #c687cc; 
+          color: white; 
+      }
+      
+      .btn-bl:hover {
+          background-color: #803b86; 
+          color: white; 
+      }
+      .btn-bl:focus {
+          background-color: #a75275; 
+          color: white; 
+      } 
+
+      .btn-bl:active {
+          background-color: #f9bdff; 
+          color: white; }
+          .col {
+        flex: 1; 
+        text-align: center; 
+    }
+    .text-left {
+        text-align: left; 
+    }
+
+    .carousel-item img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            footer{
+                background-color: #e7cbf1;
+            }
+.a{
+    color: black;
+}
+            .a:hover,
+.a:focus,
+.a:active {color: black;
+
+}
+    </style>
+  </head>
+  <body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"> </script>
+    <div class="container py-3">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid px-6">
+          <a class="navbar-brand" href="index2.html" style="font-family: Gilroy, sans-serif; font-size: 30px; font-weight: bold;">GIFTS & MERCH</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse justify-content-end ml-3 px-8" id="navbarNav">
+          <ul class="navbar-nav d-none d-lg-flex">
+                
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html" style="font-weight: 500; font-size: 20px">Наборы</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#" style="font-weight: 500; font-size: 20px" >Товары</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="index4.html" style="font-weight: 500; font-size: 20px" >Пошив</a>
+                  </li>
+                  <li class="nav-item"></li>
+                      <a class="nav-link" href="index3.html" style="font-weight: 500; font-size: 20px">Производство</a>
+                  </li>
+                  <li class="nav-item"></li>
+                      <a class="nav-link" href="index2.html" style="font-weight: 500; font-size: 20px">Информация</a>
+                  </li>
+                  <div class="d-flex align-items-center ms-auto"> 
+                    <li class="nav-item me-3"> 
+                        <button type="button" class="btn btn-bl" style="border-radius: 40px;">+7999999999</button>
+                    </li>
+                    <li class="nav-item me-3"> 
+                        <button type="button" class="btn btn-bl" style="border-radius: 40px;"><a class="nav-link" href="index.html"><img src="img/user.png" alt="" style="width: 20px;"> </a>
+                            
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-bl" style="font-size: 10px;" ><a class="nav-link" href="index3.html"> RU</a></button>
+                    </li>
+                </div>
+            </ul>
+        </div>
+  </nav>
+</div>
+
+  <!-- Offcanvas меню -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+      <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasMenuLabel" style="font-family: Gilroy, sans-serif; font-size: 30px; font-weight: bold;" >GIFTS & MERCH</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+      </div>
+      <div class="offcanvas-body">
+          <ul class="nav flex-column">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html" style="font-weight: 500; font-size: 20px">Наборы</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#" style="font-weight: 500; font-size: 20px" >Товары</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="index4.html" style="font-weight: 500; font-size: 20px" >Пошив</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="index3.html" style="font-weight: 500; font-size: 20px">Производство</a>
+              </li>
+              <li class="nav-item">
+                      <a class="nav-link" href="index2.html" style="font-weight: 500; font-size: 20px">Информация</a>
+                  </li>
+
+                  <li class="nav-item  mt-2">
+                    <button type="button" class="btn btn-bl" style="border-radius: 40px;" >+7999999999</button></li>
+                    <li class="nav-item mt-2"  >
+                    <button type="button" class="btn btn-bl mt-3" style="border-radius: 40px;" ><img src="img/user.png" alt="" style="width: 20px;"></button></li>
+                    <li class="nav-item  mt-2">
+                    <button type="button" class="btn btn-bl mt-3" style="font-size: 10px;"><a class="nav-link" href="index3.html"> RU</a></button></li>   
+          </ul>
+      </div>
+  </div> 
+  
+  <div class="header-image position-relative">
+    <img src="img/bg color.png" alt="Пример изображения" class="img-fluid">
+    <div class="header-content position-absolute top-50 start-50 translate-middle text-white text-center" style="flex-direction: row">
+        <div class="text-content me-3">
+        <h1 style="font-family: Gilroy, sans-serif; font-size: 3vw; font-weight: bold; color: rgb(46, 46, 46);">СВЕЖЕЕ ДЫХАНИЕ В КОРПОРАТИВНОЙ ЖИЗНИ</h1> 
+        <h2 style="font-family: Gilroy, sans-serif; font-size: 1.5vw;  color: rgb(46, 46, 46);">Мы возложили процесс изготовления на себя для того, чтобы Вы и Ваша компания сконцентрировались на основных задачах и достигли поставленных целей.</h2>
+        <div class="row mt-3"> 
+            <div class="col">
+                <img src="img/circle.png" style="width: 4vw;">
+                <h3 style="font-family: Gilroy, sans-serif; font-size: 1.5vw;  color: rgb(46, 46, 46);">Высокое качество <b>ONLY</b></h3>
+            </div>
+            <div class="col">
+                <img src="img/circle.png" style="width: 4vw;">
+                <h3 style="font-family: Gilroy, sans-serif; font-size: 1.5vw;  color: rgb(46, 46, 46);">Поддержка менеджера <b>24/7</b></h3>
+            </div>
+            <div class="col">
+                <img src="img/circle.png" style="width: 4vw;">
+                <h3 style="font-family: Gilroy, sans-serif; font-size: 1.5vw;  color: rgb(46, 46, 46);">Выполнение заказа в <b>TURBO</b>-режиме</h3>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="container-fluid d-flex flex-column align-items-center">
+  <div class="text-left mb-3" style="margin-left: -65vw;">
+      <h3 style="font-family: Gilroy, sans-serif; font-size: 2vw;  color: rgb(46, 46, 46);"><b>Самое популярное</b></h3>
+      <h4 style="font-family: Gilroy, sans-serif; font-size: 1.5vw;  color: rgb(46, 46, 46);">То, что заказывают наши клиенты</h4>
+  </div>
+  
+</div>
+
+
+<div class="container">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+          <div class="card shadow-sm" style="border-radius: 30px;">
+              <img src="img/card 1.png" class="d-block w-100" style="width: 100%; height: 200px; object-fit: cover; border-radius: 20px;" alt="...">
+              <div class="card-body">
+                  <p class="card-text"><b>Шопперы</b></p>
+                  <p class="card-text" style="font-size: 12px; color: gray;">Шопперы</p>
+              </div>
+          </div>
+      </div>
+
+      <div class="col">
+          <div class="card shadow-sm" style="border-radius: 30px;">
+              <img src="img/card 2 (1).png" class="d-block w-100" style="width: 100%; height: 200px; object-fit: cover; border-radius: 20px;" alt="...">
+              <div class="card-body">
+                  <p class="card-text"><b>Кружки</b></p>
+                  <p class="card-text" style="font-size: 12px; color: gray;">Кружки</p>
+              </div>
+          </div>
+      </div>
+
+      <div class="col">
+          <div class="card shadow-sm" style="border-radius: 30px;">
+              <img src="img/card 3.png" class="d-block w-100" style="width: 100%; height: 200px; object-fit: cover; border-radius: 20px;" alt="...">
+              <div class="card-body">
+                  <p class="card-text"><b>Термостаканы</b></p>
+                  <p class="card-text" style="font-size: 12px; color: gray;">Термостаканы</p>
+              </div>
+          </div>
+      </div>
+
+      <div class="col">
+          <div class="card shadow-sm" style="border-radius: 30px;">
+              <img src="img/Group 9 (2).png" class="d-block w-100" style="width: 100%; height: 200px; object-fit: cover; border-radius: 20px;" alt="...">
+              <div class="card-body">
+                  <p class="card-text"><b>Худи</b></p>
+                  <p class="card-text" style="font-size: 12px; color: gray;">Худи</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+ 
+
+   
+   
+    </div>
+  </div>
+
+
+
+
+
+    <footer class=" text-white mt-5">
+      <div class="container" style="color: rgb(46, 46, 46);">
+          <div class="row">
+              <div class="col-md-3" style="padding: 30px;">
+                  <a class="navbar-brand" href="#" style="font-family: Gilroy, sans-serif; font-size: 2vw; font-weight: bold;">GIFTS & MERCH</a>
+                  <ul class="list-unstyled">
+                      <li style="padding-top: 30px;">Свежее дыхание в корпоративной жизни и жизни корпоративной дыхание свежее </li>
+                      <li style="padding-top: 30px;"><b>+79999999999</b></li>
+                      <li><a href="#" class="text-black">example@email.ru</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3" style="padding: 35px;">
+                  <h5><b>Категории</b></h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-black" >Пошив</a></li>
+                      <li><a href="index6.html" class="text-black">Все товары
+                      </a></li>
+                      <li><a href="#" class="text-black">Наборы</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3" style="padding: 35px;">
+                  <h5><b>Информация</b></h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#" class="text-black">О нас</a></li>
+                      <li><a href="index5.html" class="text-black">ЧаВо</a></li>
+                      <li><a href="#" class="text-black">Контакты</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3" style="padding: 35px;">
+                  <h5><b>Связаться с менеджером</b></h5>
+                  <ul class="list-unstyled">
+                      <li>Есть вопрос на который не нашли ответ? Оставьте контакт и наш менеджер свяжеться с вами</li>
+                      
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="text-center py-3 text-black">
+          &copy; 2024 Все права защищены.
+      </div>
+  </footer>
+  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
